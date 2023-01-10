@@ -12,7 +12,7 @@ function update(){
         str+=`<tr>
         <th scope="row">${index+1}</th>
         <td>${element[0]}</td> 
-        <td>>${element[1]}</td>
+        <td>${element[1]}</td>
         <td><button type="button" class="btn btn-primary" onclick=del(${index})>Delete</button></td>
       </tr>`
     });
